@@ -1,4 +1,4 @@
-var w1:nl = document.getElementById("w1-nl");
+var w1_nl = document.getElementById("w1-nl");
 var w2:nl = document.getElementById("w2-nl");
 var w3:nl = document.getElementById("w3-nl");
 var w4:nl = document.getElementById("w4-nl");
