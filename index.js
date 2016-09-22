@@ -1,4 +1,19 @@
-
+var val = 1;
+function woordjes(){
+  val++;
+  var para = document.getElementById("para");
+  if(val < 11){
+  var woordjes = document.getElementById("woordjes");
+  woordjes.innerHTML += '<input type="text" class="w-search" id="w'+val+'-nl" oninput="vraag();" placeholder="franse woordjes..."/><input type="text" class="w-search" id="w'+val+'-fa" oninput="vraag();" placeholder="nederlandse woordjes..."/><br/>';
+  }else{
+  para.style.color = "red";
+  para.innerHTML = "U heeft het maximale aantal woorden bereikt!";
+  }
+  }
+  function check(){
+  }
+  function vragen(){
+var w1_nl = document.getElementById("w1-nl");
 var w2_nl = document.getElementById("w2-nl");
 var w3_nl = document.getElementById("w3-nl");
 var w4_nl = document.getElementById("w4-nl");
@@ -18,22 +33,6 @@ var w7_fa = document.getElementById("w7-fa");
 var w8_fa = document.getElementById("w8-fa");
 var w9_fa = document.getElementById("w9-fa");
 var w10_fa = document.getElementById("w10-fa");
-var val = 1;
-function woordjes(){
-  val++;
-  var para = document.getElementById("para");
-  if(val < 11){
-  var woordjes = document.getElementById("woordjes");
-  woordjes.innerHTML += '<input type="text" class="w-search" id="w'+val+'-nl" oninput="vraag();" placeholder="franse woordjes..."/><input type="text" class="w-search" id="w'+val+'-fa" oninput="vraag();" placeholder="nederlandse woordjes..."/><br/>';
-  }else{
-  para.style.color = "red";
-  para.innerHTML = "U heeft het maximale aantal woorden bereikt!";
-  }
-  }
-  function check(){
-  }
-  function vragen(){
-  var w1_nl = document.getElementById("w1-nl");
   var vragen = document.getElementById("Vragen");
   vragen.innerHTML = w1_nl.value;
   }
