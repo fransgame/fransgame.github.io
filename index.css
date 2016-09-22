@@ -1,8 +1,6 @@
 #canvas {
  background:url("character movement.png");
  background-repeat:repeat no-repeat;
- background-position:0px;
- background-size:15000px;
  animation: walk 1s steps(36) infinite;
  width:500px;
  height:325px;
