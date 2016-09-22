@@ -1,4 +1,4 @@
-var w1_nl = document.getElementById("w1-nl");
+
 var w2_nl = document.getElementById("w2-nl");
 var w3_nl = document.getElementById("w3-nl");
 var w4_nl = document.getElementById("w4-nl");
@@ -33,6 +33,7 @@ function woordjes(){
   function check(){
   }
   function vragen(){
+  var w1_nl = document.getElementById("w1-nl");
   var vragen = document.getElementById("Vragen");
-  vragen.innerHTML = document.getElementById("w1-nl").value;
+  vragen.innerHTML = w1_nl.value;
   }
