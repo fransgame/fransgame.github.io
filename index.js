@@ -4,7 +4,7 @@ function woordjes(){
   var para = document.getElementById("para");
   if(val < 11){
   var woordjes = document.getElementById("woordjes");
-  woordjes.innerHTML += '<input type="text" class="w-search" id="w'+val+'-nl" oninput="vraag();" placeholder="franse woordjes..."/><input type="text" class="w-search" id="w'+val+'-fa" oninput="vraag();" placeholder="nederlandse woordjes..."/><br/>';
+  woordjes.innerHTML += '<input type="text" class="w-search" id="w'+val+'-nl" oninput="vragen();" placeholder="franse woordjes..."/><input type="text" class="w-search" id="w'+val+'-fa" oninput="vragen();" placeholder="nederlandse woordjes..."/><br/>';
   }else{
   para.style.color = "red";
   para.innerHTML = "U heeft het maximale aantal woorden bereikt!";
@@ -36,11 +36,7 @@ var w10_fa = document.getElementById("w10-fa");
 var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
-if(vragen.innerHTML == "Wat betekent: "+w1_nl.value){
   if(ans.innerHTML == w1_fa.value){
     vragen.innerHTML = "Thats true!";
-  }else{
-    
   }
-}
   }
