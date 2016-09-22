@@ -34,5 +34,5 @@ function woordjes(){
   }
   function vraag(){
   var vragen = document.getElementById("Vragen");
-  vragen.innerTEXT = w1:nl.value;
+  vragen.innerText = w1:nl.value;
   }
