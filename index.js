@@ -31,5 +31,8 @@ function woordjes(){
   }
   }
   function check(){
-    
+  }
+  function vragen(){
+  var vragen = document.getElementById("Vragen");
+  vragen.innerHTML = w1:nl.value;
   }
