@@ -37,7 +37,7 @@ var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
 if(vragen.innerHTML == "Wat betekent: "+w1_nl.value){
-  if(ans.innerHTML == w1_nl.value){
+  if(ans.innerHTML == w1_fa.value){
     vragen.innerHTML = "Thats true!";
   }else{
     
