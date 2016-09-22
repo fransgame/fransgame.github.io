@@ -33,6 +33,13 @@ var w7_fa = document.getElementById("w7-fa");
 var w8_fa = document.getElementById("w8-fa");
 var w9_fa = document.getElementById("w9-fa");
 var w10_fa = document.getElementById("w10-fa");
-  var vragen = document.getElementById("Vragen");
-  vragen.innerHTML = "Wat betekent: "+w1_nl.value;
+var vragen = document.getElementById("Vragen");
+vragen.innerHTML = "Wat betekent: "+w1_nl.value;
+if(vragen.innerHTML == "Wat betekent: "+w1_nl.value){
+  if(){
+    
+  }else{
+    
+  }
+}
   }
