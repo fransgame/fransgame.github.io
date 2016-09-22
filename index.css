@@ -2,7 +2,7 @@
  background:url("character movement.jpg");
  background-repeat:repeat no-repeat;
  background-position:0px;
- background-size:5000px;
+ background-size:15000px;
  animation: walk 1s steps(36) infinite;
  width:500px;
  height:325px;
@@ -13,7 +13,7 @@
 }
 @keyframes walk {
  from{background-position:0px;}
- to{background-position:-200px;}
+ to{background-position:-14356px;}
 }
 .w-search {
  margin:15px;
