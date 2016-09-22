@@ -1,7 +1,7 @@
 #canvas {
  background:url("character movement.png");
  background-repeat:repeat no-repeat;
- animation: walk 1s steps(36) infinite;
+ animation: walk 1s steps(8) infinite;
  width:500px;
  height:325px;
  margin-top:150px;
