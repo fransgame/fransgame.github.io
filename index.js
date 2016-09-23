@@ -4,7 +4,7 @@ function woordjes(){
   var para = document.getElementById("para");
   if(val < 11){
   var woordjes = document.getElementById("woordjes");
-  woordjes.innerHTML += '<input type="text" class="w-search" id="w'+val+'-nl" oninput="vragen();" placeholder="nederlandse woordjes..."/><input type="text" class="w-search" id="w'+val+'-fa" oninput="vragen();" placeholder="franse woordjes..."/><br/>';
+  woordjes.innerHTML += '<input type="text" class="w-search" id="w'+val+'-nl" placeholder="nederlandse woordjes..."/><input type="text" class="w-search" id="w'+val+'-fa" placeholder="franse woordjes..."/><br/>';
   }else{
   para.style.color = "red";
   para.innerHTML = "U heeft het maximale aantal woorden bereikt!";
