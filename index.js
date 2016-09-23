@@ -48,7 +48,7 @@ function woordjes(){
      if(ans.value == w1_fa.value){
        vragen.innerHTML = "Thats true!";
        check_btn.innerHTML = "Next";
-       check_btn.onclick = "vragen();";
+       check_btn.onclick = vragen();
       }
     }
   }
