@@ -74,9 +74,9 @@ var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
 var play_btn = document.getElementById("play-btn");
 var check_btn = document.getElementById("check-btn");
-check_btn.style.display = "block";
+check_btn.style.display = "inline-block";
 play_btn.style.display = "none";
 vragen.style.display = "block";
-ans.style.display = "block";
+ans.style.display = "inline-block";
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
   }
