@@ -31,3 +31,8 @@
  margin-top:50px;
  border-radius:5px;
 }
+#play-btn {
+ color:white;
+ background-color:green;
+ margin:10px auto;
+}
