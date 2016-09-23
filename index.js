@@ -13,6 +13,8 @@ function woordjes(){
   function hide(){
   var vragen = document.getElementById("Vragen");
   var ans = document.getElementById("ans");
+  var play_btn = document.getElementById("play-btn");
+  play_btn.style.display = "block";
   vragen.style.display = "none";
   ans.style.display = "none";
   }
@@ -39,6 +41,8 @@ var w9_fa = document.getElementById("w9-fa");
 var w10_fa = document.getElementById("w10-fa");
 var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
+var play_btn = document.getElementById("play-btn");
+play_btn.style.display = "none";
 vragen.style.display = "block";
 ans.style.display = "block";
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
