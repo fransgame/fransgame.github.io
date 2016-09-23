@@ -10,7 +10,11 @@ function woordjes(){
   para.innerHTML = "U heeft het maximale aantal woorden bereikt!";
   }
   }
-  function check(){
+  function hide(){
+  var vragen = document.getElementById("Vragen");
+  var ans = document.getElementById("ans");
+  vragen.style.display = "none";
+  ans.style.display = "none";
   }
   function vragen(){
 var w1_nl = document.getElementById("w1-nl");
@@ -35,6 +39,8 @@ var w9_fa = document.getElementById("w9-fa");
 var w10_fa = document.getElementById("w10-fa");
 var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
+vragen.style.display = "inline-block";
+ans.style.display = "inline-block";
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
 if(vragen.innerHTML = "Wat betekent: "+w1_nl.value){
   if(ans.value == w1_fa.value){
