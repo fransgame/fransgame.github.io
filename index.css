@@ -34,5 +34,8 @@
 #play-btn {
  color:white;
  background-color:green;
- margin-top:164.5px;
+ margin-top:114.5px;
+ width:100px;
+ height:100px;
+ border-radius:100px;
 }
