@@ -15,6 +15,8 @@ function woordjes(){
   var ans = document.getElementById("ans");
   var play_btn = document.getElementById("play-btn");
   var check_btn = document.getElementById("check-btn");
+  var next_btn = document.getElementById("next-btn");
+  next_btn.style.display = "none";
   check_btn.style.display = "none";
   play_btn.style.display = "block";
   vragen.style.display = "none";
@@ -44,11 +46,12 @@ function woordjes(){
     var vragen = document.getElementById("Vragen");
     var ans = document.getElementById("ans");
     var check_btn = document.getElementById("check-btn");
+    var next_btn = document.getElementById("next-btn");
     if(vragen.innerHTML = "Wat betekent: "+w1_nl.value){
      if(ans.value == w1_fa.value){
        vragen.innerHTML = "Thats true!";
-       check_btn.innerHTML = "Next";
-       check_btn.onclick = function() {vragen()};
+       check_btn.style.display = "none";
+       next_btn.style.display = "inline-block";
       }
     }
   }
