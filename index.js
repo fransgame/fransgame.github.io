@@ -20,6 +20,13 @@ function woordjes(){
   vragen.style.display = "none";
   ans.style.display = "none";
   }
+  function check(){
+    if(vragen.innerHTML = "Wat betekent: "+w1_nl.value){
+     if(ans.value == w1_fa.value){
+       vragen.innerHTML = "Thats true!";
+      }
+    }
+  }
   function vragen(){
 var w1_nl = document.getElementById("w1-nl");
 var w2_nl = document.getElementById("w2-nl");
@@ -50,9 +57,4 @@ play_btn.style.display = "none";
 vragen.style.display = "block";
 ans.style.display = "block";
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
-if(vragen.innerHTML = "Wat betekent: "+w1_nl.value){
-  if(ans.value == w1_fa.value){
-    vragen.innerHTML = "Thats true!";
-  }
-}
   }
