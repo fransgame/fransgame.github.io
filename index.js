@@ -43,9 +43,12 @@ function woordjes(){
     var w10_fa = document.getElementById("w10-fa");
     var vragen = document.getElementById("Vragen");
     var ans = document.getElementById("ans");
+    var check_btn = document.getElementById("check-btn");
     if(vragen.innerHTML = "Wat betekent: "+w1_nl.value){
      if(ans.value == w1_fa.value){
        vragen.innerHTML = "Thats true!";
+       check_btn.innerHTML = "Next";
+       check_btn.onclick = "vragen();";
       }
     }
   }
