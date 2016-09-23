@@ -39,8 +39,8 @@ var w9_fa = document.getElementById("w9-fa");
 var w10_fa = document.getElementById("w10-fa");
 var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
-vragen.style.display = "inline-block";
-ans.style.display = "inline-block";
+vragen.style.display = "block";
+ans.style.display = "block";
 vragen.innerHTML = "Wat betekent: "+w1_nl.value;
 if(vragen.innerHTML = "Wat betekent: "+w1_nl.value){
   if(ans.value == w1_fa.value){
