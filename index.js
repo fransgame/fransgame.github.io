@@ -14,6 +14,8 @@ function woordjes(){
   var vragen = document.getElementById("Vragen");
   var ans = document.getElementById("ans");
   var play_btn = document.getElementById("play-btn");
+  var check_btn = document.getElementById("check-btn");
+  check_btn.style.display = "none";
   play_btn.style.display = "block";
   vragen.style.display = "none";
   ans.style.display = "none";
@@ -42,6 +44,8 @@ var w10_fa = document.getElementById("w10-fa");
 var vragen = document.getElementById("Vragen");
 var ans = document.getElementById("ans");
 var play_btn = document.getElementById("play-btn");
+var check_btn = document.getElementById("check-btn");
+check_btn.style.display = "block";
 play_btn.style.display = "none";
 vragen.style.display = "block";
 ans.style.display = "block";
