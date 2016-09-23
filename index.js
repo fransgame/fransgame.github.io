@@ -54,6 +54,13 @@ function woordjes(){
        next_btn.style.display = "inline-block";
       }
     }
+    if(vragen.innerHTML = "Wat betekent: "+w2_nl.value){
+     if(ans.value == w2_fa.value){
+       vragen.innerHTML = "Thats true!";
+       check_btn.style.display = "none";
+       next_btn.style.display = "inline-block";
+      }
+    }
   }
   function next(){
     var w2_nl = document.getElementById("w2-nl");
